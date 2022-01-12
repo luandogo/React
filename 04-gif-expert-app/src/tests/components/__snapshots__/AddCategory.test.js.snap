@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <AddCategory /> should be displayed correctly. 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <p>
+     
+     
+  </p>
+  <input
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+</form>
+`;
+
+exports[`Tests in <AddCategory /> should display correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <p>
+     
+     
+  </p>
+  <input
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+</form>
+`;

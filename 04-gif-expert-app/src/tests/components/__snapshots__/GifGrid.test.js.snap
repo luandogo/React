@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <GifGrid /> should be displayed correctly. 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+     
+    One Punch Man
+     
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+     Loading 
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Tests in <GifGrid /> should show items when images are loaded useFetchGifs 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+     
+    { category }
+     
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="Something"
+      url="https://localhost/something/something.jpg"
+    />
+    <GifGridItem
+      id="ABC123"
+      key="ABC123"
+      title="Something"
+      url="https://localhost/something/something.jpg"
+    />
+  </div>
+</Fragment>
+`;
