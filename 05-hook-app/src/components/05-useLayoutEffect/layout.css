@@ -1,0 +1,12 @@
+body{
+    padding: 70px;
+}
+
+.blockquote {
+    display: flex;
+    text-align: right;
+}
+
+footer{
+    padding-top: 15px;
+}
